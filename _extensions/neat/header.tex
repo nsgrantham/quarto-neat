@@ -1,0 +1,13 @@
+\usepackage{titling}
+
+\renewcommand\maketitle{
+    \begin{tabular*}{\textwidth}{@{}p{0.7\textwidth}@{\extracolsep{\fill}}r@{}}
+        \begin{tabular}{@{}l}
+            \huge\thetitle
+        \end{tabular} &
+        \begin{tabular}{r@{}}
+            \theauthor \\
+            \thedate 
+        \end{tabular}
+    \end{tabular*}
+}
